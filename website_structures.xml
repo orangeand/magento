@@ -1,0 +1,80 @@
+#promotion menu#
+    cms-static-block-menu-promotion
+# footer#
+    Block Main Footer  cms-static-main-footer
+
+
+#home page#
+#King Power Online#
+<referenceContainer name="slide.showcase">
+			<block class="Magento\Cms\Block\Block" name="con.banners-slider">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">cms-static-main-slide</argument>
+                </arguments>
+            </block>
+</referenceContainer>
+<referenceContainer name="sections.page.top">
+			<block class="Magento\Cms\Block\Block" name="con.banners">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">cms-static-page-banner</argument>
+                </arguments>
+            </block>
+			<block class="Magento\Cms\Block\Block" name="con.brands">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">cms-static-page-brand</argument>
+                </arguments>
+            </block>
+			<block class="Magento\Cms\Block\Block" name="con.collection">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">cms-static-page-collections</argument>
+                </arguments>
+            </block>
+			<block class="Magento\Cms\Block\Block" name="con.cat">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">cms-static-page-calalog</argument>
+                </arguments>
+            </block>
+	   <block class="Magento\Cms\Block\Block" name="con.top">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">cms-static-page-ours-product</argument>
+                </arguments>
+            </block>
+	    <block class="Magento\Cms\Block\Block" name="con.test">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">cms-static-page-news-arrival</argument>
+                </arguments>
+            </block>
+	    <block class="Magento\Cms\Block\Block" name="con.bottom">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">cms-static-page-news-recommended</argument>
+                </arguments>
+            </block>
+             <block class="Magento\Cms\Block\Block" name="con.delivery">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">cms-static-page-news-delivery</argument>
+                </arguments>
+            </block>
+	   <block class="Magento\Cms\Block\Block" name="con.member-ship">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">cms-static-page-member-ship</argument>
+                </arguments>
+             
+			</block>
+	    <block class="Magento\Cms\Block\Block" name="con.ours">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">cms-static-page-top</argument>
+                </arguments>
+            </block>
+	     <!--block class="Magento\Cms\Block\Block" name="con.why-to-shopping">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">cms-static-block-why-to-shopping</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Cms\Block\Block" name="con.get-news">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">cms-static-page-bottom</argument>
+                </arguments>
+            </block-->
+</referenceContainer>
+
+
